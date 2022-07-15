@@ -2,37 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field {
+  display: flex;
+  align-items: flex-start;
+  align-self: center;
+  height: 500px;
+  max-width: 800px;
+  /* background-color: #00bfff; */
+  background-image: url(resource/weatherBackBlured.jpg);
+  background-size: 100%;
+  border: 1px solid #1c222a;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.field-before{
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.field .container {
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+  flex-basis: 60%;
+}
+
+.field .hint {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0px 25px 0px 25px;
+  height: 100%;
+  flex-basis: 40%;
+  color: #1c222a;
+  border-right: 1px solid #1c222a;
 }
 
-.App-link {
-  color: #61dafb;
+.field .container .formSearch {
+  color: #1c222a;
+  padding: 25px 0px 25px 0px;
+  flex-basis: 35%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.field .container .weatherInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1c222a;
+  padding: 0px 0px 25px 0px;
+  flex-basis: 65%;
 }
+
+

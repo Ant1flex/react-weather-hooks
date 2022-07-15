@@ -1,0 +1,129 @@
+.hintHeader{
+    text-align: center; 
+    font-size: 14pt;
+}
+.hintText{
+    text-align: justify; 
+    font-size: 12pt;
+}
+
+.infoHeader{
+    text-align: justify; 
+    font-size: 16pt;
+}
+.infoText{
+    text-align: justify; 
+    font-size: 14pt;
+}
+
+.li {
+    display: inline;
+    margin-left: 0.5rem;
+    align-self: center;
+}
+
+.rm {
+    background-color: #1c222a;
+    color: #f4f9f9;
+    border-radius: 0px 3px 3px 0px;
+    padding: 0px 7px 0px 7px;
+    margin: 0.5px 0px 0.5px 0px;
+    border: 1px solid #1c222a;
+    border-left-style: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 10pt;
+    height:25px;
+}
+.rm:hover {
+    background-color: #1c222a;
+    color: #edb021;
+    border: 1px solid #edb021;
+    border-left-style: none;
+}
+
+.favElem{
+    background-color: #1c222a;
+    color: #f4f9f9;
+    border-radius: 3px 0px 0px 3px;
+    padding: 0px 5px 0px 7px;
+    margin: 0.5px 0px 0.5px 0px;
+    border: 1px solid #1c222a;
+    border-right-style: none;
+    outline: none;
+    height:25px;
+    font-size: 10pt;
+}
+.favElem:hover {
+    background-color: #1c222a;
+    color: #edb021;
+    border: 1px solid #edb021;
+    border-right-style: none;
+}
+
+.favList{
+    margin: 0.5rem;
+    font-size: 12pt;
+}
+
+.actionBTN{
+    margin: 1px 1px 1px 1px;
+    background-color: #1c222a;
+    border: 1px solid #1c222a;
+    color: #dcdcdc;
+    height: 34px;
+    outline: none;
+    font-size: 12pt;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.actionBTN:hover {
+    background-color: #1c222a;
+    color: #edb021;
+    border: 1px solid #edb021;
+}
+
+i{
+    font-style: inherit;
+}
+
+.i-font{
+    font-family: iconfort!important;
+    font-style:normal;
+    font-weight:inherit;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12pt;
+    line-height: 1;
+}
+
+.i-search:before{
+    content: "🔍";
+}
+.i-favourites:before{
+    content: "⭐";
+}
+.i-geolocation:before{
+    content: "🌐";
+}
+
+.textbox{
+    margin: 1px 1px 1px 1px;
+    background-color: #f4f9f9;
+    border: 1px solid #1c222a;
+    color: #1c222a;
+    height: 30px;
+    width: 150px;
+    font-size: 12pt;
+    outline: none;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.textbox:-webkit-autofill:focus {
+  -webkit-text-fill-color: #1c222a;
+  -webkit-box-shadow: 0 0 0px 1000px #f4f9f9 inset;
+   transition: background-color 5000s ease-in-out 0s; 
+  /* -webkit-box-shadow: 0 0 0 30px #dcdcdc inset !important; */
+}
